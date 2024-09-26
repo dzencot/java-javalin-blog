@@ -14,7 +14,7 @@ RUN mv gradle-${GRADLE_VERSION} ${GRADLE_HOME}
 
 ENV PATH=$PATH:$GRADLE_HOME/bin
 
-RUN mkdir -p /app
+RUN mkdir /app
 
 WORKDIR /app
 
